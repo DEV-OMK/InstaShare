@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+}
+
+.body {
+  margin: 0px;
+}
+
+.page-not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.page-not-found-image {
+  height: 173px;
+  width: 157px;
+  margin-bottom: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .page-not-found-image {
+    height: 297px;
+    width: 269px;
+    margin-bottom: 48px;
+  }
+}
+
+.page-not-found-title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: #262626;
+  margin: 0px;
+  margin-bottom: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .page-not-found-title {
+    font-size: 32px;
+    line-height: 48px;
+    margin-bottom: 16px;
+  }
+}
+
+.page-not-found-caption {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  text-align: center;
+  color: #989898;
+  margin: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .page-not-found-caption {
+    font-size: 20px;
+    line-height: 32px;
+  }
+}
+
+.home-page-button {
+  padding: 12px 32px;
+  background-color: #4094ef;
+  border-radius: 12px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin-top: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .home-page-button {
+    padding: 8px 24px;
+    border-radius: 8px;
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 32px;
+  }
+}

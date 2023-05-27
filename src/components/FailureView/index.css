@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+.failure-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.failure-icon {
+  height: 20px;
+  width: 22px;
+}
+
+.failure-caption {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #262626;
+}
+
+.try-again-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px 24px;
+  gap: 8px;
+  width: 102px;
+  height: 32px;
+  background-color: #4094ef;
+  border-radius: 8px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #ffffff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}

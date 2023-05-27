@@ -1,0 +1,159 @@
+.post-item {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  margin-bottom: 15px;
+}
+
+.post-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 14px 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .post-header {
+    background-color: #ffffff;
+    border: 1px solid #dbdbdb;
+    border-radius: 4px 4px 0px 0px;
+  }
+}
+
+.post-profile-pic-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(
+    314.35deg,
+    #e20337 6.03%,
+    #c60188 40.88%,
+    #7700c3 73.23%
+  );
+  padding: 2px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.post-profile-pic {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  padding: 2px;
+  background-color: #fff;
+}
+
+.link-item {
+  text-decoration: none;
+  color: inherit;
+}
+
+.post-username {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.1px;
+  color: #262626;
+  margin: 0px;
+}
+
+.post-image {
+  width: 100%;
+  min-width: 360px;
+  min-height: 375px;
+  max-height: 614px;
+}
+
+.post-details-container {
+  display: flex;
+  flex-direction: column;
+  padding: 16px 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .post-details-container {
+    background: #ffffff;
+    border: 1px solid #dbdbdb;
+    border-radius: 0px 0px 4px 4px;
+  }
+}
+
+.post-buttons-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.post-button {
+  width: 24px;
+  height: 24px;
+  font-size: 24px;
+  color: #475569;
+  margin-right: 16px;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+}
+
+.post-likes-count {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: -0.07px;
+  color: #262626;
+  margin: 0px;
+  margin-bottom: 4px;
+}
+
+.post-caption {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: -0.07px;
+  color: #262626;
+  margin: 0px;
+  margin-bottom: 4px;
+}
+
+.comments-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  list-style-type: none;
+}
+
+.post-comment {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: -0.1px;
+  color: #262626;
+  margin: 0px;
+  margin-bottom: 4px;
+}
+
+.post-comment-username {
+  font-weight: bold;
+}
+
+.post-created-at {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 16px;
+  letter-spacing: 0.05px;
+  color: #989898;
+  margin: 0px;
+}

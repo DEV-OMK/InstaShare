@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+
+.body {
+  margin: 0px;
+}
+
+.something-went-wrong-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.something-went-wrong-image {
+  height: 127px;
+  width: 260px;
+  margin-bottom: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .something-went-wrong-image {
+    height: 273px;
+    width: 560px;
+    margin-bottom: 48px;
+  }
+}
+
+.something-went-wrong-title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 48px;
+  color: #262626;
+  margin: 0px;
+  margin-bottom: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .something-went-wrong-title {
+    font-size: 32px;
+    line-height: 48px;
+    margin-bottom: 16px;
+  }
+}
+
+.try-again-button {
+  padding: 12px 32px;
+  background-color: #4094ef;
+  border-radius: 12px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin-top: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .try-again-button {
+    padding: 8px 24px;
+    border-radius: 8px;
+    font-size: 12px;
+    line-height: 16px;
+    margin-top: 32px;
+  }
+}
