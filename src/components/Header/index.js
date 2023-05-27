@@ -29,7 +29,7 @@ class Header extends Component {
         this.setState({activeTabId: 'profile'})
         break
       default:
-        this.setState({activeTabId: 'home'})
+        this.setState({activeTabId: ''})
         break
     }
   }
